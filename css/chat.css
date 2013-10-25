@@ -1,0 +1,43 @@
+tr { margin-bottom: 4ex; }
+button { padding: 4px; }
+
+.tip { color: #666666; font-style: italic; }
+
+td.timestamp {
+	padding-right: 2ch;
+	width: 8ch;
+	vertical-align: bottom;
+	white-space: pre;
+	color: #0000cc;
+	font-style: italic;
+}
+
+td.username {
+	padding-right: 2ch;
+	width: 16ch;
+	vertical-align: bottom;
+	white-space: pre;
+	color: #666666;
+}
+
+td.messageBody {
+	max-width: 80ch;
+	vertical-align: bottom;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+div#msgContainer {
+	padding: 2ex 2ch 2ex 2ch;
+	border: 1px solid #333333;
+	width: 112ch;
+	height: 40ex;
+	overflow: auto;
+}
+
+textarea#msgBody {
+	padding: 5px;
+	width: 81ch;
+}
+
+table#messages { margin: 0px 0px 2ex 0px; }
