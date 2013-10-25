@@ -1,10 +1,4 @@
 <?php
-require '../lib/counter.php';
-
-HitCounter::hit('rendezvous/index');
-
-// ================================ //
-
 class Page {
 	public static function isInstalled() {
 		return file_exists('config.php');
