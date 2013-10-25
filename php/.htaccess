@@ -1,0 +1,24 @@
+#
+# .htaccess for /php.
+#
+<Files .htaccess>
+  Order Deny,Allow
+  Deny from All
+</Files>
+
+#
+# Note: is there a way not to expose AJAX PHP files?
+#
+
+<Files chat_fetch.php>
+  Order Deny,Allow
+  Allow from All
+</Files>
+
+<Files chat_send.php>
+  Order Deny,Allow
+  Allow from All
+</Files>
+
+Order Deny,Allow
+Deny from All
