@@ -1,0 +1,19 @@
+#
+# .htaccess for /.
+#
+<Files .htaccess>
+  Order Deny,Allow
+  Deny from All
+</Files>
+
+<Files config.php>
+  Order Deny,Allow
+  Deny from All
+</Files>
+
+#
+# Note: deal with install.php and uninstall.php properly...
+#
+
+Order Deny,Allow
+Allow from All
