@@ -9,4 +9,6 @@ This assumes that you have:
 
 To install, download and run the install page (index redirects here if not installed).
 
-After installation, the index page will contains the chat client.
+After installation, the index page will contain the chat client.
+
+To uninstall, run the uninstall page.
