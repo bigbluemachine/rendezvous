@@ -1,13 +1,12 @@
 rendezvous
 ==========
 
-This assumes that you have:
-
+Requires:
 - Apache HTTP server
 - MySQL
-- PHP (5 I think?)
+- PHP 5
 
-To install, download and run the install page (index redirects here if not installed).
+To install, download and run the install page (index redirects to the install page if not installed).
 
 After installation, the index page will contain the chat client.
 
